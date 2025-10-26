@@ -89,6 +89,15 @@ nav a, nav span {
     word-spacing: 70px;
 }
 
+.home:hover,
+.story:hover,
+.idk:hover {
+    color: rgb(97, 15, 151);
+    transition: all 200ms;
+    scale: 1.2;
+    transform: translateX();
+}
+
 .pilih-story {
     color: var(--text);
     height: 35px;
