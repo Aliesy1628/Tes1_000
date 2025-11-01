@@ -32,7 +32,7 @@ main {
  /* Warna dasar */
 :root {
 --bg: #ebebeb;
---text: #721a88;
+--text: #000000;
     --x: 0;
     --y: 0;
     --xp: 0;
@@ -75,8 +75,8 @@ main {
     z-index: 2;
     border-radius: 1rem;
 }
-button span {
-    background: var(--glow), rgb(165, 70, 184);
+.button span {
+    background: var(--glow), rgb(179, 65, 202);
     background-clip: text;
     color: transparent;
     height: 100%;
@@ -152,7 +152,7 @@ nav a, nav span {
 }
 
 .button:hover {
-    color: rgb(97, 15, 151);
+    color: rgb(71, 17, 107);
     transition: all 200ms;
     scale: 1.2;
     transform: translateX();
